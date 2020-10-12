@@ -13,7 +13,7 @@ if sys.version_info[0] !=3:
 --------------------------------------
 			''')              										
 	sys.exit()										           			
-os.system("pip install requests && pip install colorama &&  pip install bs4 && pip install mechanize  && cd lib && cd library && python lib.py")
+os.system("pip install requests && pip install colorama &&  pip install bs4 && pip install mechanize && python lib.py")
 post_url='https://www.facebook.com/login.php'
 headers = {
 	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
